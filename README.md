@@ -1,4 +1,4 @@
-================================== IP TELEFONIE =======================================
+=============================== IP TELEFONIE ====================================
 
 ### ⦁	ISDN = první integrace služeb do jedné (hlas+data)
 ### ⦁	ATM = optika, velmi kvalitní, implementace QoS, ale drahé
