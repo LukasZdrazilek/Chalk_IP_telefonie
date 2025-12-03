@@ -48,3 +48,40 @@
     - nutná SLA (service level agreement)
       
   - **Class of Service (CoS)** + rámec Ethernetu
+    - priority bitově zapsány v rámci Ethernetu (na liknové vrstvě)
+  
+  - **Asynchronous Transfer Mode (ATM)**
+    - každých 125 mikrosekund se odesílají pakety
+    - asynchroně se rezervují prostředky v paketech
+    - pokud se nezaplní, přidají se prázdné bloky
+
+### =>  Metody spolehlivosti ve VoIP
+  - **Spanning tree protokol (STP)**
+    - dělá z redundantně fyzicky zasmyčkované sítě logicky nezasmyčkovanou
+    - postupy a designated router umět na zkoušku
+    
+  - **Power over Etherner (PoE)**
+    - ušetříme kabely
+    - méně konektorů
+    - při výpadku proudu možný síťový spike při hromadném bootu zařízení
+    
+### => Kodeky
+  - **Kodek**
+    - převádí analogový signál na digitální 
+  - **Waveform coders** - sbírají každých 125 mikrosekund vzorek (G.711)
+  - **Vocoders** - komprimují, sbírají a zpracovávají základní parametry pro hlas (G.729)
+  - **Hybrid coders**
+
+  - **Parametry**
+    - komplexita: MIPS (Million Instructions per Second)
+    - voice bandwidth (bit/s)
+    - packet size (payload)
+    - kvalita - MOS (body 5-1 naopak jako ve škole)
+    - R-factor - hodnocení dle algoritmu (body 0-100)
+    - zpoždění
+   
+  - **Kodek G.722**
+    - 50-7000 Hz (13,900 vzorkovací frekvence)
+    - moderní, HD hlas, standard pro wired a wireless
+    - sám přelaďuje a šetří tak šířku pásma
+    - když je ticho, neposílá pakety ale pošle malý šum
